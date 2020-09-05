@@ -43,11 +43,7 @@ app.get('/book/:id', (req, res) => {
 })
 
 function startServer() {
-  app.listen(8080, (err) => {
-    if (err) {
-      console.error(err)
-      return
-    }
+  app.listen(8080, () => {
     console.log(`App is listening on port ${8080}!`)
   })
 }
