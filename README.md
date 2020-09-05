@@ -11,6 +11,8 @@
 
 ## API Documentation
 
+`localhost:8080/api-docs`
+
 ![Swagger](https://github.com/2110521-2563-1-Software-Architecture/soft-arch-hw-1/raw/master/images/swagger.png)
 
 ## Source code
@@ -30,10 +32,12 @@
 
 ## What are the main differences between REST API and gRPC?
 
-The main different is the format of payload. REST's payload is JSON which is not
-type stricted while gRPC use Protobuf message.
+The main difference is the format of payload. REST's payload is JSON which is not
+type stricted while gRPC uses Protobuf message which is smaller. REST also uses HTTP/1 by default while gRPC uses HTTP/2 which is much faster.
 
 ## What is the benefits of introduce interface in front of the gRPC and REST API of the book services.
+
+Interface helps us call gRPC and REST API service by using the same method. We can also implement other services by using the interface.
 
 ## Based on the introduced interface, compare how to call the methods based on gRPC and REST API
 
@@ -45,3 +49,5 @@ type stricted while gRPC use Protobuf message.
 | Delete a book by id | `BookInterface.delete()`   | `BookInterface.delete()`   |
 
 ## Draw a component diagram representing the book services with and without interfaces.
+
+![Component Diagram](https://github.com/2110521-2563-1-Software-Architecture/soft-arch-hw-1/raw/master/images/diagram.png)
