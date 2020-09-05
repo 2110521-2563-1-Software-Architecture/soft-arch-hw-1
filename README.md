@@ -10,6 +10,7 @@
 6. Nathaphum Niyomsathien 6031014621
 
 ## API Documentation
+![Swagger](https://github.com/2110521-2563-1-Software-Architecture/soft-arch-hw-1/raw/master/images/swagger.png)
 
 ## Source code
 
