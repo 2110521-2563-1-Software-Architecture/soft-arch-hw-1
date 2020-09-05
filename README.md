@@ -10,6 +10,7 @@
 6. Nathaphum Niyomsathien 6031014621
 
 ## API Documentation
+
 ![Swagger](https://github.com/2110521-2563-1-Software-Architecture/soft-arch-hw-1/raw/master/images/swagger.png)
 
 ## Source code
@@ -29,7 +30,8 @@
 
 ## What are the main differences between REST API and gRPC?
 
-    The main different is the format of payload. REST's payload is JSON which is not type stricted while gRPC use Protobuf message.
+The main different is the format of payload. REST's payload is JSON which is not
+type stricted while gRPC use Protobuf message.
 
 ## What is the benefits of introduce interface in front of the gRPC and REST API of the book services.
 
